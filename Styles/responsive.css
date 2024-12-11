@@ -1,18 +1,25 @@
-@media screen and (max-width: 576px)  {
-    .web-nav{
-        flex-direction: column;
-    }
-    .banner-container{
-       flex-direction: column-reverse;
-        width: 100%;
-        justify-content: center;
-    }
-    .banner-info,.banner-pic{
-        width: 100%;
-    }
-.item-container a,i{
+@media screen and (max-width: 576px) {
+  .web-nav {
+    flex-direction: column;
+  }
+  .banner-container {
+    flex-direction: column-reverse;
+    width: 100%;
+    justify-content: center;
+  }
+  .banner-info,
+  .banner-pic {
+    width: 100%;
+  }
+  .banner-pic img{
+    margin:0px;
+  }
+  .item-container a,
+  i {
     display: flex;
-  flex-direction: column-reverse;
-}
-    
+    flex-direction: column-reverse;
+  }
+  .banner-info {
+    text-align: center;
+  }
 }
